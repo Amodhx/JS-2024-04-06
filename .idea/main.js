@@ -1,4 +1,4 @@
-var marks = 85;
+var marks = 70;
 
 if (marks >= 75){
     console.log("A")
@@ -11,3 +11,6 @@ if (marks >= 75){
 }else {
     console.log("Fail")
 }
+
+var x = (marks >= 75) ? "A" : (marks>=65) ? "B" : (marks >= 55) ? "C" : (marks >=35) ? "S" :"F";
+console.log(x)
